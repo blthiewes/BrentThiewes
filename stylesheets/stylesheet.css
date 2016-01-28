@@ -74,6 +74,14 @@ a {
   .page-header {
     padding: 2rem 1rem; } }
 
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .container {
+    margin: 3rem 2rem 3rem 2rem; } }
+
+@media screen and (max-width: 42em) {
+  .container {
+    margin: 3rem 2rem 3rem 2rem; } }
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem; }
@@ -92,11 +100,11 @@ a {
 
 @media screen and (min-width: 64em) {
   .nav-bar {
-    font-size: 2.25rem; } }
+    font-size: 1.7rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .nav-bar {
-    font-size: 1.75rem; } }
+    font-size: 1.3rem; } }
 
 @media screen and (max-width: 42em) {
   .nav-bar {
