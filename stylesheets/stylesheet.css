@@ -8,21 +8,23 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71;
+  background-color: #2e6da4;
   background-image: url("https://tse4.mm.bing.net/th?id=OIP.Mcaf65a173208153e2a4d5b833484fce1H0&pid=15.1");
 }
 
 .container {
   background-color: white;
-  margin-top: 50px;
   box-shadow: 0 0 40px black;
   padding:0 15px 0 15px;
+  margin: 0 auto;
 }
 
 a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+  }
 
 .btn {
   display: inline-block;
@@ -62,25 +64,29 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
+/*@media screen and (min-width: 64em) {*/
+  /*.page-header {*/
+    /*padding: 5rem 6rem; } }*/
+
+/*@media screen and (min-width: 42em) and (max-width: 64em) {*/
+  /*.page-header {*/
+    /*padding: 3rem 4rem; } }*/
+
+/*@media screen and (max-width: 42em) {*/
+  /*.page-header {*/
+    /*padding: 2rem 1rem; } }*/
+
 @media screen and (min-width: 64em) {
-  .page-header {
-    padding: 5rem 6rem; } }
+  body {
+    padding: 3rem 3rem 3rem 3rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 3rem 4rem; } }
+  body {
+    padding: 3rem 3rem 3rem 3rem; } }
 
 @media screen and (max-width: 42em) {
-  .page-header {
-    padding: 2rem 1rem; } }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .container {
-    margin: 3rem 2rem 3rem 2rem; } }
-
-@media screen and (max-width: 42em) {
-  .container {
-    margin: 3rem 2rem 3rem 2rem; } }
+  body {
+    padding: 3rem 2rem 3rem 2rem; } }
 
 .project-name {
   margin-top: 0;
