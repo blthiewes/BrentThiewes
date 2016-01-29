@@ -19,6 +19,69 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 64em) {
+  .name:before, .name:after {
+    width: 28%;
+  }
+  .name:before, .name:after {
+    border-top: 1px solid #d4d4d4;
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 19%;
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    z-index: 1;
+  }
+  .name:after {
+    right: 0;
+    left: auto;
+  }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .name:before, .name:after {
+    width: 28%;
+  }
+  .name:before, .name:after {
+    border-top: 1px solid #d4d4d4;
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 15%;
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    z-index: 1;
+  }
+  .name:after {
+    right: 0;
+    left: auto;
+  }
+}
+
+@media screen and (max-width: 42em) {
+  .name:before, .name:after {
+    width: 28%;
+  }
+    .name:before, .name:after {
+      border-top: 1px solid #d4d4d4;
+      content: " ";
+      display: block;
+      height: 1px;
+      width: 15%;
+      position: absolute;
+      left: 0;
+      top: 0.6em;
+      z-index: 1;
+    }
+    .name:after {
+      right: 0;
+      left: auto;
+    }
+}
+
 a {
   color: #1e6bb8;
   text-decoration: none; }
@@ -64,6 +127,11 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
+@font-face {
+  font-family: 'arvo-regular';
+  src: url("arvo/Arvo-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
 /*@media screen and (min-width: 64em) {*/
   /*.page-header {*/
     /*padding: 5rem 6rem; } }*/
@@ -88,21 +156,33 @@ a {
   body {
     padding: 3rem 2rem 3rem 2rem; } }
 
-.project-name {
+.name {
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
 @media screen and (min-width: 64em) {
-  .project-name {
-    font-size: 3.25rem; } }
+  .name {
+    font: 4em 'arvo-regular', serif; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-name {
-    font-size: 2.25rem; } }
+  .name {
+    font: 3em 'arvo-regular', serif; } }
 
 @media screen and (max-width: 42em) {
-  .project-name {
-    font-size: 1.75rem; } }
+  .name {
+    font: 1.6em 'arvo-regular', serif; } }
+
+@media screen and (min-width: 64em) {
+  .title {
+    font: 1.7em 'arvo-regular', serif; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .title {
+    font: 1.3em 'arvo-regular', serif; } }
+
+@media screen and (max-width: 42em) {
+  .title {
+    font: 0.9em 'arvo-regular', serif; } }
 
 @media screen and (min-width: 64em) {
   .nav-bar {
