@@ -19,6 +19,20 @@ body {
   margin: 0 auto;
 }
 
+.title{
+  margin-top: -0.4em;
+}
+
+.description{
+  margin: 2em 0 0 0;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.section-description{
+  color: #0099e8;
+}
+
 @media screen and (min-width: 64em) {
   .name:before, .name:after {
     width: 28%;
@@ -80,6 +94,14 @@ body {
       right: 0;
       left: auto;
     }
+}
+
+@media only screen and (max-width: 630px){
+  .aside_el h2 {
+    font: 2em 'Arvo', serif;
+    line-height: 0.8em;
+    margin-bottom: -10px;
+  }
 }
 
 a {
@@ -162,15 +184,26 @@ a {
 
 @media screen and (min-width: 64em) {
   .name {
-    font: 4em 'arvo-regular', serif; } }
+    font: 4em 'arvo-regular', serif; }
+  .section-title{
+    font: 2.6em 'arvo-regular', serif;
+    margin-top: 1em;
+  }
+}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .name {
-    font: 3em 'arvo-regular', serif; } }
+    font: 3em 'arvo-regular', serif; }
+  .section-title{
+    font: 2em 'arvo-regular', serif; }
+}
 
 @media screen and (max-width: 42em) {
   .name {
-    font: 1.6em 'arvo-regular', serif; } }
+    font: 1.6em 'arvo-regular', serif; }
+  .section-title{
+    font: 1.8em 'arvo-regular', serif; }
+}
 
 @media screen and (min-width: 64em) {
   .title {
