@@ -11,6 +11,10 @@
   font-weight: normal;
   opacity: 0.7; }
 
+.line{
+  margin-bottom: 3em;
+}
+
 .name {
   font: 1.6em 'arvo-regular', serif;
   margin-top: 0;
@@ -31,6 +35,9 @@
   color: white;
   background-color: #0099e8;
 }
+.period-container{
+  height: 0;
+}
 .description-title {
   font-family: 'arvo-regular', serif;
   font-size: 1.0em;
@@ -48,6 +55,7 @@
   color: #8e8e8e;
   font: 0.7em 'Droid Sans', sans-serif;
   padding-right: 5em;
+  margin-top: 0.7em;
 }
 body {
   padding: 0;
