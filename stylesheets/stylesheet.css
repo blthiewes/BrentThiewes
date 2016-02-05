@@ -12,7 +12,7 @@
   opacity: 0.7; }
 
 .line{
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
 }
 
 .name {
@@ -87,6 +87,7 @@ body {
 
 .section-description{
   color: #0099e8;
+  margin-bottom: 1.5em;
 }
 
 .section{
