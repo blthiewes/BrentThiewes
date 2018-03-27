@@ -230,6 +230,7 @@ a:hover {
     font: 0.9em 'Droid Sans', sans-serif;
   }
   .title {
+      margin-top: 5px;
     font: 0.9em 'arvo-regular', serif; }
   .nav-bar {
     font-size: 1.25rem; }
